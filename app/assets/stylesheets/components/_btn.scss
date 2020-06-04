@@ -1,0 +1,32 @@
+.btn-white {
+  font-size: 22px;
+  color: white;
+  padding: 15px 40px;
+  border: 1px solid white;
+  border-radius: 1px;
+  transition: 0.4s ease;
+  &:hover {
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+    background: white;
+  }
+}
+
+.btn-black {
+  font-size: 22px;
+  color: black;
+  padding: 15px 40px;
+  border: 1px solid black;
+  border-radius: 1px;
+  transition: 0.4s ease;
+  &:hover {
+    color: white;
+    text-decoration: none;
+    background: black;
+  }
+}
+
+.btn-section {
+  margin: 75px 0;
+}

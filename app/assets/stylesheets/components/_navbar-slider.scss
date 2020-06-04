@@ -1,0 +1,22 @@
+.navbar-slider-left {
+  position: fixed;
+  bottom:0px;
+  left: 3.6%;
+  width: 50%;
+  transform: rotate(-90deg);
+  transform-origin: center left;
+  // height: 100vh;
+}
+
+.navbar-slider {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  a {
+    font-size: 12px;
+    color: black
+  }
+}
