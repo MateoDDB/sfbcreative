@@ -27,7 +27,13 @@
 }
 
 .bloc-we-creative {
+  ul{
+    & > li:first-child:hover{
+      border-bottom: 3px solid $brown;
+    }
+  }
   li:first-child {
+    transition: 0.4s ease;
     border-bottom: 3px solid black;
     font-size: 24px;
     padding-bottom: 15px;
@@ -160,6 +166,7 @@
   background-attachment: fixed;
   background-position: top;
   background-size: cover;
+  width: 100%;
 }
 
 .bloc-carreer-home {

@@ -1,0 +1,32 @@
+<div class="footer">
+  <div class="bloc-footer ul-footer">
+    <ul>
+      <li><%= link_to "HOME","#"  %></li>
+      <li><%= link_to "SERVICES","#"  %></li>
+      <li><%= link_to "CLIENTS","#"  %></li>
+      <li><%= link_to "ABOUT US","#"  %></li>
+      <li><%= link_to "BE IN TOUCH","#"  %></li>
+    </ul>
+    <ul>
+      <li>
+        <%= link_to "#" do %>
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        <% end %>
+        <%= link_to "#" do %>
+          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        <% end %>
+        <%= link_to "#" do %>
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+        <% end %>
+      </li>
+      <li><%= link_to "Cookies","#" %></li>
+      <li><%= link_to "Privacy","#" %></li>
+      <li><%= link_to "Term and conditions","#" %></li>
+      <li><%= link_to "Brand safety","#" %></li>
+    </ul>
+  </div>
+  <div class="bloc-footer">
+    <%= image_tag "SFB_logo.png", alt: "logo sfbcreative" %>
+    <%= render 'newsletters/form' %>
+  </div>
+</div>
