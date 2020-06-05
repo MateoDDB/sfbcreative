@@ -27,6 +27,37 @@
   }
 }
 
+.btn-collection {
+  font-size: 22px;
+  color: black;
+  padding: 15px 40px;
+  transition: 0.4s ease;
+  &:hover {
+    text-decoration: none;
+    opacity: 0.7;
+    color: black;
+  }
+}
+
 .btn-section {
   margin: 75px 0;
+}
+
+.bloc-image-logo-realisation {
+  display: flex;
+}
+
+.b-image-realisation {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  img {
+    width: 100%;
+  }
+}
+
+.logo-clients {
+  margin: 0 auto;
+  padding: 100px 0;
+  width: 50% !important;
 }

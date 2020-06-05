@@ -37,6 +37,31 @@
   <h4 class="text-center">EDITORIAL</h4>
   <p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.</p>
   <div class="btn-section text-center">
-    <%= link_to "WORK WITH US","#", class:"btn-black"  %>
+    <%= link_to "#", class:"btn-collection" do %>
+      VIEW MORE <span style="font-size:18px;">&#9660</span>
+    <% end %>
   </div>
+</div>
+<div class="bloc-image-logo-realisation">
+  <div class="b-image-realisation">
+    <%= image_tag "img-r-1.jpg", alt: "image reférence 1" %>
+    <%= image_tag "vogue.png", class:"logo-clients", alt: "logo vogue" %>
+    <%= image_tag "img-r-2.jpg", alt: "image reférence 2" %>
+    <%= image_tag "gucci.png", class:"logo-clients", alt: "logo gucci" %>
+  </div>
+  <div class="b-image-realisation">
+    <%= image_tag "loreal.png", class:"logo-clients", alt: "logo l'oréal" %>
+    <%= image_tag "img-r-3.jpg", alt: "image reférence 3" %>
+    <%= image_tag "img-r-4.jpg", alt: "image reférence 4" %>
+    <%= image_tag "img-r-5.jpg", alt: "image reférence 5" %>
+  </div>
+  <div class="b-image-realisation">
+    <%= image_tag "img-r-6.jpg", alt: "image reférence 6" %>
+    <%= image_tag "img-r-7.jpg", alt: "image reférence 7" %>
+    <%= image_tag "chanel.png", class:"logo-clients", alt: "logo chanel" %>
+    <%= image_tag "img-r-8.jpg", alt: "image reférence 8" %>
+  </div>
+</div>
+<div class="btn-section text-center">
+  <%= link_to "VIEW MORE","#", class:"btn-black"  %>
 </div>
