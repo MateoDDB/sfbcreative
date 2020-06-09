@@ -1,0 +1,86 @@
+.bloc-career {
+  margin-top: 40px;
+}
+.bloc-career-option {
+  display: flex;
+  align-items: center;
+}
+.description-career {
+  img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+  p {
+    margin: 30px 0;
+    color: $grey;
+    width: 80%;
+    line-height: 30px;
+  }
+}
+
+.apply-btn {
+    margin-top: 40px;
+  a {
+    color: $grey;
+  }
+}
+
+.open-postion {
+  margin-top: 90px;
+  padding: 80px 80px 50px 80px;
+  background: $brown;
+  h2 {
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+}
+
+.filter-select {
+  display: flex;
+  justify-content: space-around;
+  select {
+    width: 200px;
+    background: transparent;
+    padding: 5px 0 5px 10px;
+  }
+}
+
+.jobs-description {
+  margin-top: 50px;
+}
+
+.dna-career {
+  padding: 70px 0;
+}
+
+.our-dna {
+  h4 {
+    font-size: 48px;
+  }
+  p {
+    width: 50%;
+    color: $grey;
+    margin-top: 20px;
+  }
+}
+
+.values-dna {
+  display: flex;
+  // justify-content: space-between;
+  margin-top: 70px;
+  h5 {
+    font-size: 36px;
+  }
+  p {
+    color: $grey;
+    margin-top: 20px;
+    line-height: 30px;
+    width: 200px;
+  }
+}
+
+.value-dna {
+  // flex:1;
+  margin: auto;
+}

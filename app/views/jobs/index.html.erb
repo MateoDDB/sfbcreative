@@ -1,0 +1,81 @@
+<div class="bloc-career">
+  <div class="bloc-career-option">
+    <div class="description-career">
+      <h1>CAREERS</h1>
+      <p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.</p>
+      <div class="btn-see-open">
+        <%= link_to "SEE OPEN POSITION","#", class:"btn-black"  %>
+      </div>
+      <div class="apply-btn">
+        <%= link_to "> APPLY", "#"  %>
+      </div>
+    </div>
+    <div class="description-career">
+      <%= image_tag "career.jpg", alt: "alttext" %>
+    </div>
+  </div>
+  <div class="open-postion">
+    <h2 class="text-center">Open positions</h2>
+    <div class="filter-select">
+      <select name="pets" id="pet-select">
+          <option value="">Category</option>
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="hamster">Hamster</option>
+          <option value="parrot">Parrot</option>
+          <option value="spider">Spider</option>
+          <option value="goldfish">Goldfish</option>
+      </select>
+      <select name="pets" id="pet-select">
+          <option value="">City</option>
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="hamster">Hamster</option>
+          <option value="parrot">Parrot</option>
+          <option value="spider">Spider</option>
+          <option value="goldfish">Goldfish</option>
+      </select>
+      <select name="pets" id="pet-select">
+          <option value="">Contract type</option>
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="hamster">Hamster</option>
+          <option value="parrot">Parrot</option>
+          <option value="spider">Spider</option>
+          <option value="goldfish">Goldfish</option>
+      </select>
+    </div>
+    <div class="jobs-description">
+      <% @jobs.each do |job| %>
+        <div class="job-description">
+          <h3><%= job.category %> - <%= job.location %></h3>
+          <p><%= job.contract_type %></p>
+          <p><%= job.description %></p>
+        </div>
+      <% end %>
+      <div class="btn-section text-center">
+        <%= link_to "VIEW MORE","#", class:"btn-black"  %>
+      </div>
+    </div>
+  </div>
+  <div class="dna-career">
+    <div class="our-dna">
+      <h4>OUR DNA</h4>
+      <p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.</p>
+    </div>
+    <div class="values-dna">
+      <div class="value-dna">
+        <h5>Value 1</h5>
+        <p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens.</p>
+      </div>
+      <div class="value-dna">
+        <h5>Value 2</h5>
+        <p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens.</p>
+      </div>
+      <div class="value-dna">
+        <h5>Value 3</h5>
+        <p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens.</p>
+      </div>
+    </div>
+  </div>
+</div>
