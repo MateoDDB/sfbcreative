@@ -1,0 +1,114 @@
+.bloc-about-us {
+  padding: 30px 0 90px 0;
+  h1,h2,h4,h5 {
+    font-size: 48px;
+  }
+  h2 {
+    margin-top: 70px;
+  }
+}
+
+.about-description-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.about-img-schanel {
+    text-align: center;
+  flex:1;
+  img {
+  }
+}
+
+.decription-about {
+  flex:1;
+  max-width: 500px;
+  color: $grey;
+  h3 {
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+  p {
+    line-height: 30px;
+  }
+}
+
+.bloc-our-story {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.img-our-story {
+  img {
+    max-width: 550px;
+  }
+}
+
+.description-our-story {
+  max-width: 400px;
+  text-align: center;
+  margin: auto;
+  p {
+    margin-top: 50px;
+    line-height: 30px;
+    color: $grey;
+  }
+}
+
+.bloc-talks {
+  margin-top: 80px;
+  h5 {
+    margin-bottom: 80px;
+  }
+}
+
+.blocs-talks-brands {
+  flex:1;
+  text-align: center;
+  img {
+    width: 200px;
+  }
+  p {
+    color: $grey;
+  }
+}
+
+.talks-comments {
+  display: flex;
+}
+
+.quote-about {
+  font-size: 32px;
+}
+
+.first-quote {
+  margin-top: 50px;
+}
+
+.second-quote {
+  margin-top: 30px;
+}
+
+.comments-about {
+  max-width: 400px;
+  margin: auto;
+  line-height: 30px;
+}
+
+.bloc-partner {
+  h5 {
+    margin: 20px 0 30px 0;
+  }
+}
+
+.logo-partner{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  img {
+    max-width: 200px;
+  }
+}
