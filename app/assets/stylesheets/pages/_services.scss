@@ -1,0 +1,70 @@
+.bloc-services{
+  padding: 30px 0 70px 0;
+  h1 {
+    margin-bottom: 30px;
+  }
+}
+.bloc-services-video {
+  video {
+    width: 100%;
+  }
+}
+.bloc-services-content {
+  display: flex;
+  margin-top: 70px;
+  padding: 0 80px;
+  position: relative;
+  ul {
+    list-style-type: none;
+    padding: 0;
+    flex:1;
+    li:not(:first-child) {
+      line-height: 40px;
+    }
+  }
+  li:first-child {
+    font-size: 32px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+  }
+  button {
+    border: none;
+    padding: 0;
+    margin-top: 15px;
+    background: transparent;
+  }
+  .title-h2-experiences {
+    position: absolute;
+    top: 70px;
+    left: -50px;
+    transform: rotate(-90deg);
+    h2 {
+      font-size: 36px;
+    }
+  }
+}
+
+.bloc-our-experiences {
+  text-align: center;
+  padding-top: 60px;
+  h3 {
+    font-size: 48px;
+  }
+  p {
+    max-width: 450px;
+    margin: 40px auto 0 auto;
+  }
+}
+
+.bloc-xp-btn-img {
+  position: relative;
+}
+
+.img-our-experiences {
+  position: absolute;
+  top:0;
+  right:0;
+  img {
+    width: 300px;
+  }
+}

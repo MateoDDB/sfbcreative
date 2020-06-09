@@ -1,0 +1,65 @@
+.bloc-contact-description {
+  margin-top: 30px;
+  text-align: center;
+  h1 {
+    margin-bottom: 30px;
+  }
+  p {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
+
+.bloc-contact-cities {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+}
+
+.bloc-input-form {
+  display: flex;
+  width: 100%;
+  .form-group {
+    flex: 1;
+    padding: 0 5px;
+  }
+  .form-control {
+    background: transparent;
+    border: 1px solid black !important;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+.contact_project {
+  .form-control {
+    background: transparent;
+    border: 1px solid black !important;
+  }
+  textarea.form-control {
+    height: 180px;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+.new_contact {
+  margin-bottom: 70px;
+  .btn {
+    border: 1px solid black;
+    padding: 10px 45px;
+    transition: 0.4s ease;
+    &:hover {
+      color: white;
+      background: black;
+    }
+  }
+}

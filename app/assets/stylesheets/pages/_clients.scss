@@ -23,7 +23,8 @@
   display: flex;
   justify-content: space-around;
   img {
-    max-width: 200px;
+    width: 200px;
+    // object-fit: cover;
   }
 }
 
@@ -37,4 +38,27 @@
     margin: 0 auto;
     opacity: 0.7;
   }
+}
+
+.bloc-image-logo-realisation {
+  display: flex;
+}
+
+.b-image-realisation {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0 7.5px;
+  img {
+    width: 100%;
+  }
+  img:not(:first-child) {
+    margin-top: 15px;
+  }
+}
+
+.logo-clients {
+  margin: 0 auto;
+  padding: 100px 0;
+  width: 50% !important;
 }

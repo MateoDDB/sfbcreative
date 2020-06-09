@@ -18,8 +18,9 @@ import 'core-js/stable'
 import 'regenerator-runtime/runtime'
 
 import { initVerticalLine } from '../components/vertical-line';
+import { initContactCities } from '../components/contact-cities';
 
 window.addEventListener("DOMContentLoaded", (event) => {
   initVerticalLine();
-  console.log("Helloworld")
+  initContactCities();
 });
