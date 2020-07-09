@@ -1,7 +1,7 @@
 .btn-white {
-  font-size: 22px;
+  font-size: 18px;
   color: white;
-  padding: 15px 40px;
+  padding: 8px 25px;
   border: 1px solid white;
   border-radius: 1px;
   transition: 0.4s ease;
@@ -14,12 +14,13 @@
 }
 
 .btn-black {
-  font-size: 22px;
+  font-size: 18px;
   color: black;
-  padding: 15px 40px;
+  padding: 8px 25px;
   border: 1px solid black;
   border-radius: 1px;
   transition: 0.4s ease;
+  display: inline-block;
   &:hover {
     color: white;
     text-decoration: none;
@@ -28,9 +29,9 @@
 }
 
 .btn-collection {
-  font-size: 22px;
+  font-size: 18px;
   color: black;
-  padding: 15px 40px;
+  padding: 8px 25px;
   transition: 0.4s ease;
   &:hover {
     text-decoration: none;

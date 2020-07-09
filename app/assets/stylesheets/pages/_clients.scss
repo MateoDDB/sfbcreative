@@ -22,10 +22,17 @@
 .bloc-logo {
   display: flex;
   justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
+  height: 180px;
   img {
     width: 200px;
-    // object-fit: cover;
   }
+}
+
+.bloc-logo-item {
+  display: flex;
+  align-items: center;
 }
 
 .bloc-our-realisations {

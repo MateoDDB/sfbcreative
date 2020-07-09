@@ -1,10 +1,15 @@
 <div class="bloc-services">
-  <h1 class="text-center">OUR UNIQUE OFFERING</h1>
-  <div class="bloc-services-video">
+  <div class="title-center">
+    <h1 class="text-center title">OUR UNIQUE OFFERING</h1>
+  </div>
+  <div class="banner-video" id="">
+    <div id="muteYouTubeVideoPlayer" class="video"></div>
+  </div>
+  <!-- <div class="bloc-services-video">
     <video autoplay loop muted class="wrapper__video">
        <source src="https://player.vimeo.com/external/207561474.sd.mp4?s=bba74b337fc637965bf987e5396de35b2a959997&profile_id=164&oauth2_token_id=57447761">
     </video>
-  </div>
+  </div> -->
   <div class="bloc-services-content">
     <ul>
       <li>CONTENT STRATEGY</li>
@@ -48,14 +53,45 @@
   </div>
   <div class="bloc-xp-btn-img">
     <div class="btn-section text-center">
-      <%= link_to "WORK WITH US","#", class:"btn-black"  %>
+      <%= link_to "WORK WITH US", jobs_path, class:"btn-black"  %>
     </div>
     <div class="img-our-experiences">
       <%= image_tag "iphone-mockup.png", alt: "iphone mockup" %>
     </div>
     <div class="bloc-our-experiences">
-      <h3>OUR EXPERTISE</h3>
+      <h3 class="title">OUR EXPERTISE</h3>
       <p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.</p>
     </div>
   </div>
 </div>
+
+
+<script async src="https://www.youtube.com/iframe_api"></script>
+<script>
+function onYouTubeIframeAPIReady() {
+var player;
+player = new YT.Player('muteYouTubeVideoPlayer', {
+videoId: 'dm5BeNBYcyQ', // YouTube Video ID
+// width: 100, // Player width (in px)
+// height: 316, // Player height (in px)
+playerVars: {
+autoplay: 1, // Auto-play the video on load
+controls: 0, // Show pause/play buttons in player
+showinfo: 0, // Hide the video title
+modestbranding: 0, // Hide the Youtube Logo
+loop: 0, // Run the video in a loop
+rel:0,
+fs: 0, // Hide the full screen button
+cc_load_policty: 0, // Hide closed captions
+iv_load_policy: 3, // Hide the Video Annotations
+autohide: 0 // Hide video controls when playing
+},
+events: {
+onReady: function(e) {
+e.target.mute();
+}
+}
+});
+}
+// Written by @labnol
+</script>

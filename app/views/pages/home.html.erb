@@ -1,7 +1,7 @@
 <%= render 'shared/banner' %>
 <div class="creative-succes">
   <div class="bloc-creative">
-    <h1>CREATIVE SUCCESS</h1>
+    <h1 class="title">CREATIVE SUCCESS</h1>
     <p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.</p>
     <div class="anime-bloc-creative">
       <span><p>Innovation & creation</p></span>
@@ -14,7 +14,9 @@
   </div>
 </div>
 <div class="we-creative">
-  <h2 class="text-center">WE ARE CREATIVE</h2>
+  <div class="title-center">
+    <h2 class="text-center title">WE ARE CREATIVE</h2>
+  </div>
   <div class="bloc-we-creative">
     <ul>
       <li>CONTENT<br>STRATEGY</li>
@@ -34,7 +36,7 @@
     </ul>
   </div>
   <div class="btn-section text-center">
-    <%= link_to "OUR OFFER","#", class:"btn-black"  %>
+    <%= link_to "OUR OFFER", pages_services_path, class:"btn-black"  %>
   </div>
 </div>
 <div class="some-job">
@@ -54,7 +56,7 @@
     </div>
   </div>
   <div class="btn-section text-center">
-    <%= link_to "WORK","#", class:"btn-black"  %>
+    <%= link_to "WORK",pages_clients_path, class:"btn-black"  %>
   </div>
 </div>
 <div class="bloc-creative-intelligent">
@@ -62,7 +64,7 @@
     <div class="bloc-pink-content">
       <p>WHEN CONTENT<br>SPEAK YOUR<br>BRAND</p>
       <p class="texte-intelligent">On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.</p>
-      <%= link_to "ABOUT US","#", class:"btn-white", id:"about-btn"  %>
+      <%= link_to "ABOUT US", pages_about_path, class:"btn-white", id:"about-btn"  %>
       <span class="vertical-line" id="line"></span>
       <div class="title-creative-intelligent">
         <p>INTELLIGENT</p>
@@ -89,14 +91,14 @@
     </div>
   </div>
   <div class="btn-section text-center">
-    <%= link_to "OUR CLIENTS","#", class:"btn-black"  %>
+    <%= link_to "OUR CLIENTS", pages_clients_path, class:"btn-black"  %>
   </div>
 </div>
 <div class="paralaxe-home" style="background-image: url(<%= asset_path 'paralaxe-home.jpg' %>)"></div>
 <div class="bloc-carreer-home">
-  <h5>CAREERS</h5>
+  <h5 class="title">CAREERS</h5>
   <p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, <br>et empêche de se concentrer sur la mise en page elle-même.</p>
   <div class="btn-section" style="margin-top: 50px;">
-    <%= link_to "Discover jobs","#", class:"btn-black"  %>
+    <%= link_to "Discover jobs",jobs_path, class:"btn-black"  %>
   </div>
 </div>

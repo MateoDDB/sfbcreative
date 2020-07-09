@@ -21,3 +21,25 @@
   background-size: cover;
   background-position: center;
 }
+
+.title {
+  position: relative;
+  display: inline-block;
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 40%;
+    background: $pink;
+    z-index: -1;
+  }
+}
+
+.title-center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+

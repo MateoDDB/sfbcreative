@@ -1,5 +1,37 @@
 <div class="banner-video" id="">
-   <video autoplay loop muted class="wrapper__video">
+   <!-- <video autoplay loop muted class="wrapper__video">
       <source src="https://player.vimeo.com/external/207561474.sd.mp4?s=bba74b337fc637965bf987e5396de35b2a959997&profile_id=164&oauth2_token_id=57447761">
-   </video>
+   </video> -->
+  <div id="muteYouTubeVideoPlayer" class="video"></div>
 </div>
+
+
+<script async src="https://www.youtube.com/iframe_api"></script>
+<script>
+function onYouTubeIframeAPIReady() {
+var player;
+player = new YT.Player('muteYouTubeVideoPlayer', {
+videoId: 'KOsghCgjKa8', // YouTube Video ID
+// width: 100, // Player width (in px)
+// height: 316, // Player height (in px)
+playerVars: {
+autoplay: 1, // Auto-play the video on load
+controls: 0, // Show pause/play buttons in player
+showinfo: 0, // Hide the video title
+modestbranding: 0, // Hide the Youtube Logo
+loop: 0, // Run the video in a loop
+rel:0,
+fs: 0, // Hide the full screen button
+cc_load_policty: 0, // Hide closed captions
+iv_load_policy: 3, // Hide the Video Annotations
+autohide: 0 // Hide video controls when playing
+},
+events: {
+onReady: function(e) {
+e.target.mute();
+}
+}
+});
+}
+// Written by @labnol
+</script>
