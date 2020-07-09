@@ -1,7 +1,7 @@
 <%= render 'shared/banner' %>
 <div class="creative-succes">
   <div class="bloc-creative">
-    <h1 class="title">CREATIVE SUCCESS</h1>
+    <h1 class="title" data-aos="fade-up">CREATIVE SUCCESS</h1>
     <p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.</p>
     <div class="anime-bloc-creative">
       <span><p>Innovation & creation</p></span>
@@ -9,7 +9,7 @@
       <span><p>Digital amplification</p></span>
     </div>
   </div>
-  <div class="bloc-creative" style="text-align: center;">
+  <div class="bloc-creative" style="text-align: center;" data-aos="zoom-in">
     <%= image_tag "https://static.wixstatic.com/media/9e81cd_df708d931d334d23bfe91aa8897254a9~mv2.jpg/v1/crop/x_16,y_3,w_767,h_1125/fill/w_765,h_1125,al_c,q_85/Teddy-Quinlivan-Glass-Magazine-Cover-Pho.webp", alt: "iphone and video sfb" %>
   </div>
 </div>
@@ -41,16 +41,16 @@
 </div>
 <div class="some-job">
   <h3 class="text-center">SOME OF OUR JOBS</h3>
-  <div class="bloc-img-job">
-    <div class="img-job-ref">
+  <div class="bloc-img-job" >
+    <div class="img-job-ref" data-aos="flip-left" data-aos-duration="1000">
       <%= image_tag "vogue-1.jpg", alt: "image vogue spain" %>
       <p>VOGUE SPAIN</p>
     </div>
-    <div class="img-job-ref">
+    <div class="img-job-ref" data-aos="flip-up" data-aos-duration="1000">
       <%= image_tag "vogue-2.jpg", alt: "image vogue italy" %>
       <p>VOGUE ITALY</p>
     </div>
-    <div class="img-job-ref">
+    <div class="img-job-ref" data-aos="flip-right" data-aos-duration="1000">
       <%= image_tag "vogue-3.jpg", alt: "image vogue us" %>
       <p>VOGUE US</p>
     </div>
@@ -85,7 +85,7 @@
     <div class="bloc-title-reviews">
       <p class="text-center quote">"</p>
       <br>
-      <p>Expressiveness and individuality are key to MAC, so it’s important for us to highlight it during key moments like the New York Fashion Week. Thanks to Pulse Advertising and the awesome creators, we were able to convey these values in a playful and approachable way which resonates with Gen Z.</p>
+      <p data-aos="fade-up">Expressiveness and individuality are key to MAC, so it’s important for us to highlight it during key moments like the New York Fashion Week. Thanks to Pulse Advertising and the awesome creators, we were able to convey these values in a playful and approachable way which resonates with Gen Z.</p>
       <br>
       <p class="text-center quote">"</p>
     </div>
@@ -94,9 +94,9 @@
     <%= link_to "OUR CLIENTS", pages_clients_path, class:"btn-black"  %>
   </div>
 </div>
-<div class="paralaxe-home" style="background-image: url(<%= asset_path 'paralaxe-home.jpg' %>)"></div>
+<div class="paralaxe-home" style="background-image: url(<%= asset_path 'paralaxe-home.jpg' %>)" data-aos="zoom-in"></div>
 <div class="bloc-carreer-home">
-  <h5 class="title">CAREERS</h5>
+  <h5 class="title" data-aos="fade-up">CAREERS</h5>
   <p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, <br>et empêche de se concentrer sur la mise en page elle-même.</p>
   <div class="btn-section" style="margin-top: 50px;">
     <%= link_to "Discover jobs",jobs_path, class:"btn-black"  %>

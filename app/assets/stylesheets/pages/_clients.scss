@@ -59,8 +59,13 @@
   img {
     width: 100%;
   }
-  img:not(:first-child) {
-    margin-top: 15px;
+}
+.b-image-realisation-item {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  &:last-child {
+    margin-bottom: 0;
   }
 }
 

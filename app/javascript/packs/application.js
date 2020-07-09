@@ -23,4 +23,5 @@ import { initContactCities } from '../components/contact-cities';
 window.addEventListener("DOMContentLoaded", (event) => {
   initVerticalLine();
   initContactCities();
+  AOS.init();
 });

@@ -35,8 +35,9 @@
   }
   .title-h2-experiences {
     position: absolute;
-    top: 70px;
-    left: -50px;
+    top: 180px;
+    left: -10px;
+    transform-origin: top left;
     transform: rotate(-90deg);
     h2 {
       font-size: 36px;

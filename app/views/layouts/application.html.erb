@@ -6,6 +6,8 @@
     <%= csp_meta_tag %>
     <%#= action_cable_meta_tag %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <%= favicon_link_tag asset_path('SFB_logo_B.png') %>
     <%#= javascript_include_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
     <%#= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
 
@@ -22,7 +24,7 @@
       </div>
     </div>
     <%= render 'shared/footer' %>
-    <%#= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>

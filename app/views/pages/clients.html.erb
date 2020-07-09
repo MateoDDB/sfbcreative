@@ -52,7 +52,7 @@
 <div class="bloc-clients-reviews">
   <h2 class="text-center">THEIR REVIEWS</h2>
   <p class="quote">"</p>
-  <p class="text-clients-reviews">Expressiveness and individuality are key to MAC, so it’s important for us to highlight it during key moments like the New York Fashion Week. Thanks to Pulse Advertising and the awesome creators, we were able to convey these values in a playful and approachable way which resonates with Gen Z.</p>
+  <p class="text-clients-reviews" data-aos="fade-up">Expressiveness and individuality are key to MAC, so it’s important for us to highlight it during key moments like the New York Fashion Week. Thanks to Pulse Advertising and the awesome creators, we were able to convey these values in a playful and approachable way which resonates with Gen Z.</p>
   <p class="quote">"</p>
   <div class="btn-section text-center">
     <%= link_to "WORK WITH US",jobs_path, class:"btn-black"  %>
@@ -60,7 +60,7 @@
 </div>
 <div class="bloc-our-realisations">
   <div class="title-center">
-    <h3 class="text-center title">OUR REALISATIONS</h3>
+    <h3 class="text-center title" data-aos="fade-up">OUR REALISATIONS</h3>
   </div>
   <h4 class="text-center">EDITORIAL</h4>
   <p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.</p>
@@ -72,22 +72,46 @@
 </div>
 <div class="bloc-image-logo-realisation">
   <div class="b-image-realisation">
-    <%= image_tag "img-r-1.jpg", alt: "image reférence 1" %>
-    <%= image_tag "vogue.png", class:"logo-clients", alt: "logo vogue" %>
-    <%= image_tag "img-r-2.jpg", alt: "image reférence 2" %>
-    <%= image_tag "gucci.png", class:"logo-clients", alt: "logo gucci" %>
+    <div class="b-image-realisation-item" data-aos="flip-up">
+      <%= image_tag "img-r-1.jpg", alt: "image reférence 1" %>
+    </div class="b-image-realisation-item">
+    <div class="b-image-realisation-item" data-aos="flip-down">
+      <%= image_tag "vogue.png", class:"logo-clients", alt: "logo vogue" %>
+    </div class="b-image-realisation-item">
+    <div class="b-image-realisation-item" data-aos="flip-up">
+      <%= image_tag "img-r-2.jpg", alt: "image reférence 2" %>
+    </div class="b-image-realisation-item">
+    <div class="b-image-realisation-item" data-aos="flip-down">
+      <%= image_tag "gucci.png", class:"logo-clients", alt: "logo gucci" %>
+    </div class="b-image-realisation-item">
   </div>
   <div class="b-image-realisation">
-    <%= image_tag "loreal.png", class:"logo-clients", alt: "logo l'oréal" %>
-    <%= image_tag "img-r-3.jpg", alt: "image reférence 3" %>
-    <%= image_tag "img-r-4.jpg", alt: "image reférence 4" %>
-    <%= image_tag "img-r-5.jpg", alt: "image reférence 5" %>
+    <div class="b-image-realisation-item" data-aos="flip-up">
+      <%= image_tag "loreal.png", class:"logo-clients", alt: "logo l'oréal" %>
+    </div class="b-image-realisation-item">
+    <div class="b-image-realisation-item" data-aos="flip-down">
+      <%= image_tag "img-r-3.jpg", alt: "image reférence 3" %>
+    </div class="b-image-realisation-item">
+    <div class="b-image-realisation-item" data-aos="flip-up">
+      <%= image_tag "img-r-4.jpg", alt: "image reférence 4" %>
+    </div class="b-image-realisation-item">
+    <div class="b-image-realisation-item" data-aos="flip-down">
+      <%= image_tag "img-r-5.jpg", alt: "image reférence 5" %>
+    </div class="b-image-realisation-item">
   </div>
   <div class="b-image-realisation">
-    <%= image_tag "img-r-6.jpg", alt: "image reférence 6" %>
-    <%= image_tag "img-r-7.jpg", alt: "image reférence 7" %>
-    <%= image_tag "chanel.png", class:"logo-clients", alt: "logo chanel" %>
-    <%= image_tag "img-r-8.jpg", alt: "image reférence 8" %>
+    <div class="b-image-realisation-item" data-aos="flip-up">
+      <%= image_tag "img-r-6.jpg", alt: "image reférence 6" %>
+    </div class="b-image-realisation-item">
+    <div class="b-image-realisation-item" data-aos="flip-down">
+      <%= image_tag "img-r-7.jpg", alt: "image reférence 7" %>
+    </div class="b-image-realisation-item">
+    <div class="b-image-realisation-item" data-aos="flip-up">
+      <%= image_tag "chanel.png", class:"logo-clients", alt: "logo chanel" %>
+    </div class="b-image-realisation-item">
+    <div class="b-image-realisation-item" data-aos="flip-down">
+      <%= image_tag "img-r-8.jpg", alt: "image reférence 8" %>
+    </div class="b-image-realisation-item">
   </div>
 </div>
 <div class="btn-section text-center">
