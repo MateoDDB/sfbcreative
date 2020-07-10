@@ -19,9 +19,11 @@ import 'regenerator-runtime/runtime'
 
 import { initVerticalLine } from '../components/vertical-line';
 import { initContactCities } from '../components/contact-cities';
+import { initTitle } from '../components/title';
 
 window.addEventListener("DOMContentLoaded", (event) => {
   initVerticalLine();
   initContactCities();
+  initTitle();
   AOS.init();
 });

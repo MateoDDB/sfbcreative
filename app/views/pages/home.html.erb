@@ -1,12 +1,29 @@
 <%= render 'shared/banner' %>
 <div class="creative-succes">
   <div class="bloc-creative">
-    <h1 class="title" data-aos="fade-up">CREATIVE SUCCESS</h1>
+    <div class="title-left">
+      <h1 class="title" data-aos="fade-down">CREATIVE SUCCESS</h1>
+    </div>
     <p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.</p>
     <div class="anime-bloc-creative">
-      <span><p>Innovation & creation</p></span>
-      <span><p>100% production</p></span>
-      <span><p>Digital amplification</p></span>
+      <div class="anime-bloc-creative-item">
+        <div class="elipse-top">
+          <p>Innovation & creation</p>
+          <i class="fas fa-redo-alt"></i>
+        </div>
+      </div>
+      <div class="anime-bloc-creative-item-bottom">
+        <div class="elipse-bottom">
+          <p>100% production</p>
+          <i class="fas fa-heart"></i>
+        </div>
+      </div>
+      <div class="anime-bloc-creative-item">
+        <div class="elipse-top">
+          <p>Digital amplification</p>
+          <i class="fas fa-lightbulb"></i>
+        </div>
+      </div>
     </div>
   </div>
   <div class="bloc-creative" style="text-align: center;" data-aos="zoom-in">
@@ -96,7 +113,9 @@
 </div>
 <div class="paralaxe-home" style="background-image: url(<%= asset_path 'paralaxe-home.jpg' %>)" data-aos="zoom-in"></div>
 <div class="bloc-carreer-home">
-  <h5 class="title" data-aos="fade-up">CAREERS</h5>
+  <div class="title-left">
+    <h5 class="title" data-aos="fade-up">CAREERS</h5>
+  </div>
   <p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, <br>et empêche de se concentrer sur la mise en page elle-même.</p>
   <div class="btn-section" style="margin-top: 50px;">
     <%= link_to "Discover jobs",jobs_path, class:"btn-black"  %>
