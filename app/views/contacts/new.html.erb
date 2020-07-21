@@ -2,12 +2,13 @@
   <div class="title-center">
     <h1 class="title">BE IN TOUCH</h1>
   </div>
-  <p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.</p>
+  <p>We get back to you in less than 24h.</p>
 </div>
 <div class="bloc-contact-cities">
   <div class="bloc-cities">
     <h2>New York</h2>
-    <p>19° | 60°F | CLEAR | 07:42:20</p>
+    <p id="test">19° | 60°F | CLEAR | <span id="New_York_z161" style="font-size:36px"></span></p>
+
     <p>Address<br>46 Quai Hyppolite Jaÿr<br>69009 New York City</p>
     <%= image_tag "ny.jpg",id:"nyc", alt: "image new york" %>
   </div>
@@ -43,3 +44,8 @@
     <%= form.button :submit, "SEND" %>
   </div>
 <% end %>
+<a href="https://time.is/New_York" id="time_is_link" rel="nofollow" style="font-size:36px">Time in New York:</a>
+<script src="//widget.time.is/t.js"></script>
+<script>
+  time_is_widget.init({New_York_z161:{}});
+</script>
